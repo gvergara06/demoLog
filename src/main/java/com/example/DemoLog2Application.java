@@ -10,7 +10,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import com.example.obj.Estudiante;
 
 
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 @SpringBootApplication
 //@EnableAutoConfiguration
 public class DemoLog2Application {
