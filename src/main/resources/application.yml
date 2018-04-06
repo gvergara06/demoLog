@@ -6,11 +6,10 @@ server:
 
 spring:
       application:
-        name: demo_Log2
+        name: demo_log2
 eureka:
-      instance:
-        metadataMap:
-          instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
       client:
         serviceUrl:
-            defaultZone: http://localhost:5555/eureka
+            defaultZone:  http://localhost:5555/eureka
+      instance:
+        preferIpAddress: true

@@ -13,7 +13,7 @@ public class ServicioEscuela {
 	   @RequestMapping(value="/estudiante/{id}")
 	   public Estudiante getStudent(@PathVariable String id){
 
-	      String URL="http://localhost:8080/"+id;
+	      String URL="http://localhost/"+id;
 
 	      RestTemplate template=new RestTemplate();
 
