@@ -8,8 +8,8 @@ spring:
       application:
         name: demo_log2
 eureka:
-      client:
-        serviceUrl:
-            defaultZone:  http://localhost:5555/eureka
+#      client:
+#        serviceUrl:
+#            defaultZone:  http://localhost:5555/eureka
       instance:
         preferIpAddress: true
